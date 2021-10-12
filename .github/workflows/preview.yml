@@ -1,0 +1,24 @@
+name: Pulumi
+on:
+  push:
+    branches: [development]
+  pull_request:
+    branches: [main]
+
+jobs:
+  preview:
+    name: Preview
+    runs-on: ubuntu-latest
+    environment: dev
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-go@v1
+        with:
+          go-version: 1.17
+      - uses: pulumi/actions@v3
+        with:
+          command: preview
+          stack-name: dev
+        env:
+          PULUMI_ACCESS_TOKEN: ${{ secrets.PULUMI_ACCESS_TOKEN }}
+          DIGITALOCEAN_TOKEN: ${{ secrets.DIGITALOCEAN_TOKEN }}
