@@ -1,0 +1,9 @@
+config:
+  google-native:project:
+    secure: AAABALnnU9o8ndEd+bi/D9wMRPivbodziEZKRggs9gFlnxp93DovGs9TRUfZX2sMuMkHaXNM
+  google-native:region:
+    secure: AAABAN8lDBHgdyyfHOwsVMMLwpeG3WaVrghvJ2Slm3inEJ1RZ3yBv+xyUA==
+  google-native:zone:
+    secure: AAABAJhveGiWGaCNg2xpkiZbi0ObQMMJVQDfuJli3Q/uZIAqTkABU7jK0bRt
+  iac:talos-release:
+    secure: AAABAPhFpde6m4sZhJNpOtvJx/fbJihSN2jAVmmmk1ywoBjU5750WshmvmS6TlOILYfaoGO3BVh0yFPBK9tQ0LIBrw+48V/zgLNspkUuwscJnTu6uTYt4BaOiVghqslooc0vpdsIIT05qulMEw==
