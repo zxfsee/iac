@@ -1,3 +1,16 @@
 name: iac
-runtime: go
-description: A minimal Google Cloud Go Pulumi program
+runtime:
+  name: go
+  options:
+    buildTarget: ../../build/main
+description: Not a minimal Google Cloud Go Pulumi program
+main: cmd/main/
+stackConfigDir: deploy/
+template:
+  config:
+    google-native:project:
+        secret: true
+    google-native:region:
+        secret: true
+    google-native:zone:
+        secret: true

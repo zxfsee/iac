@@ -1,0 +1,10 @@
+config:
+  google-native:project:
+    secure: AAABAJzc63ch4Pf7tD/c2IugZ0YukF1I1Z6oWDF2XH9gQYvAJ50PW//JqtQ8QEqVSGu1YjKF
+  google-native:region:
+    secure: AAABAEWZdSD6U3BlZio4bNesma/B60aMnyGYzJtOD2H6iC1CwylwrswXOg==
+  google-native:zone:
+    secure: AAABAGe+PukMaT8EJ8/BWS0sUU/XuUV1RC2E+ZhnfO/tjPZXigYqL4pnyiTM
+  iac:data:
+    release:
+      secure: AAABAE/H8Y0gv9O88UEj7FsnYWcJi24BD7WfL/Gr95sx7eYbuIWipLGxg62wut/FswFt8S8s2c27kctpaCG290oPnPwyo2NYDqANVfhom8+gtEfRNaAnA9sAzReaHKv0rR+/IspH9qGwVfeksQ==
